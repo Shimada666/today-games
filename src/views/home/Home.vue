@@ -45,7 +45,7 @@ import data from '@/views/home/data.json'
         padding-left: 24px;
         flex: 1;
         .item-title {
-          font-weight: 600;
+          font-weight: 700;
           font-size: 18px;
           color: #404040;
         }
