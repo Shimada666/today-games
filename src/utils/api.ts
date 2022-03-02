@@ -1,7 +1,6 @@
 import axios from 'axios'
 import config from './config'
 import Cookies from 'js-cookie'
-import { message } from 'ant-design-vue'
 import { redirectLogin, refreshTokenException } from './auth'
 
 const service = axios.create(config)
@@ -54,13 +53,13 @@ service.interceptors.response.use(
             return resolve(previousRes)
           }
         }
-        message.warning(error.message)
+        // message.warning(error.message)
       })
     } else {
       if (err.response.data) {
-        message.error(err.response.data.error.message)
+        // message.error(err.response.data.error.message)
       } else {
-        message.error(err.message)
+        // message.error(err.message)
       }
     }
     return Promise.reject(err)

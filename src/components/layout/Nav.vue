@@ -6,7 +6,7 @@ import Logo from '@/components/Logo.vue'
   <div class="nav">
     <div class="nav-inner response-wrap">
       <span>今天玩什么</span>
-      <Logo width="24" />
+      <Logo :width="24" />
     </div>
   </div>
 </template>
