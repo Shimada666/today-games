@@ -13,11 +13,12 @@ import data from '@/views/home/data.json'
           <img :src="item.imgUrl" alt="image error">
         </div>
         <div class="item-content">
-          <a
-            :href="item.gameUrl"
-            target="_blank"
-            class="item-title">{{ item.title }}</a>
+          <div class="item-title">{{ item.title }}</div>
           <div class="item-description">{{ item.description }}</div>
+          <a
+            class="item-link text-blue-500 text-sm"
+            :href="item.gameUrl"
+            target="_blank">点击跳转</a>
           <!--<div class="item-tags">合成，西瓜</div>-->
         </div>
       </div>
@@ -31,6 +32,7 @@ import data from '@/views/home/data.json'
     .game-list-item {
       padding: 24px 0;
       display: flex;
+      width: 100%;
       border-bottom: 1px solid #f0f0f0;
       .item-image {
         width: 90px;
@@ -41,6 +43,7 @@ import data from '@/views/home/data.json'
       }
       .item-content {
         padding-left: 24px;
+        flex: 1;
         .item-title {
           font-weight: 700;
           font-size: 18px;
@@ -49,7 +52,7 @@ import data from '@/views/home/data.json'
         .item-description {
           font-size: 14px;
           color: #404040;
-          margin: 8px 0 12px;
+          margin: 8px 0 8px;
         }
       }
     }
