@@ -1,6 +1,12 @@
 {
   "gameList": [
     {
+      "imgUrl": "https://2048game.com/favicon.ico",
+      "gameUrl": "https://2048game.com/",
+      "title": "2048",
+      "description": "An easy and fun puzzle game."
+    },
+    {
       "imgUrl": "https://handle.antfu.me/favicon.svg",
       "gameUrl": "https://handle.antfu.me/",
       "title": "汉兜",
@@ -37,10 +43,16 @@
       "description": "合成超级无敌大西瓜"
     },
     {
-      "imgUrl": "https://play2048.co/favicon.ico",
-      "gameUrl": "https://play2048.co/",
-      "title": "2048",
-      "description": "An easy and fun puzzle game."
+      "imgUrl": "http://www.ddooo.com/logo/210426/202104261510061094.png",
+      "gameUrl": "https://www.goodoldtetris.com/",
+      "title": "俄罗斯方块",
+      "description": "模拟在游戏机上玩俄罗斯方块，可以在游戏未开始时制定初始的棋盘（十个级别）和速度（六个级别）"
+    },
+    {
+      "imgUrl": "https://s2.loli.net/2022/03/03/bayzGRvgxIHTDen.png",
+      "gameUrl": "https://www.hhtjim.com/wp-content/uploads/2017/02/T-RexGame.html",
+      "title": "谷歌离线小恐龙",
+      "description": "来自Google Chrome离线提示页面，手机端点触小恐龙所在区域即可完成跳跃动作，谷歌浏览器用户也可直接搜索 chrome://dino/ "
     }
   ]
 }
