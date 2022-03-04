@@ -4,6 +4,7 @@ import data from '@/views/home/data.json'
 
 <template>
   <div class="main response-wrap">
+    <div class="mt-4 text-sm text-gray-400">如在qq内无法打开页面，请在浏览器中打开</div>
     <div class="game-list">
       <div
         v-for="(item, index) in data.gameList"

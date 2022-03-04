@@ -19,7 +19,6 @@ import Logo from '@/components/Logo.vue'
     align-items: center;
     justify-content: space-between;
 
-    padding: 0 24px;
     height: 48px;
   }
 }
