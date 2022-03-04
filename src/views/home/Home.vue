@@ -10,7 +10,7 @@ import data from '@/views/home/data.json'
         v-for="(item, index) in data.gameList"
         :key="index"
         class="game-list-item">
-        <div class="item-image">
+        <div class="item-image items-center flex">
           <img :src="item.imgUrl" alt="image error">
         </div>
         <div class="item-content">
